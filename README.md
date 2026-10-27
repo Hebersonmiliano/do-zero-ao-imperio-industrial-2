@@ -19,7 +19,16 @@ Comece em uma oficina alugada em um bairro industrial vivo. Produza as primeiras
 
 ## Estado atual
 
-**v0.1 — Planejamento.** O projeto ainda não contém uma versão jogável.
+**v0.2 — Protótipo jogável do Distrito Aurora.** Abra `index.html` em um navegador moderno.
+
+### Conteúdo jogável atual
+
+- Novo distrito industrial com ruas, calçadas, empresas, árvores e oficina aberta.
+- Personagem controlável por WASD/setas e controles de toque.
+- Câmera com rotação e zoom.
+- Ciclo completo: comprar papelão, fabricar, armazenar e vender caixas.
+- Missões guiando o primeiro dia da oficina.
+- Salvamento automático no navegador.
 
 Consulte:
 
