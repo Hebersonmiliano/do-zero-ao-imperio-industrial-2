@@ -19,7 +19,15 @@ Comece em uma oficina alugada em um bairro industrial vivo. Produza as primeiras
 
 ## Estado atual
 
-**v0.2.1 — Correção e validação.** Extraia o ZIP inteiro e abra `index.html` em Chrome, Edge ou Firefox. A biblioteca 3D está incluída; não é necessária conexão com a internet.
+**v0.3 — Construção básica.** Extraia o ZIP inteiro e abra `index.html` em Chrome, Edge ou Firefox. A biblioteca 3D está incluída; não é necessária conexão com a internet.
+
+### Construir e organizar
+
+Após abrir a oficina, clique em **Construir** ou pressione **B**. Escolha uma mesa de apoio, estante auxiliar, divisória, portal aberto, planta ou floreira. Clique/toque no piso para escolher a posição na grade e use **Girar 90°**. A prévia verde indica uma posição livre; a vermelha indica conflito. Confirme em **Colocar**.
+
+Use a lista de peças instaladas para mover gratuitamente ou remover com devolução de 70% do preço. O layout salva automaticamente no mesmo progresso da v0.2.1. O jogo mantém R$ 20 disponíveis para matéria-prima. Corredores e acessos às estações são protegidos.
+
+Nesta versão, as estações iniciais ficam fixas; mesas e estantes novas são móveis auxiliares, sem produção ou capacidade adicional. Portais têm vão livre. Clique em **Concluir** para retomar a produção.
 
 ### Conteúdo jogável atual
 
