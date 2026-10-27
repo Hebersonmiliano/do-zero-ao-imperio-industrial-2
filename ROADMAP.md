@@ -9,10 +9,11 @@
 
 ## v0.2 — Protótipo do distrito
 
-- Terreno, rua e oficina inicial.
-- Personagem e câmera com rotação/zoom.
-- Movimento e colisão.
-- Primeiro estilo visual.
+- [x] Terreno, rua e oficina inicial.
+- [x] Personagem e câmera com rotação/zoom.
+- [x] Movimento e colisão.
+- [x] Primeiro estilo visual.
+- [x] Ciclo básico de compra, produção, estoque e venda.
 
 ## v0.3 — Construção básica
 
