@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <title>Do Zero ao Império Industrial 2 · v0.2.1</title>
+  <title>Do Zero ao Império Industrial 2 · v0.3</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
     <span id="carrying">Mãos livres</span>
     <span id="stock">Estoque 0</span>
     <span id="sold">Vendas 0</span>
-    <span class="version">v0.2.1 TESTE</span>
+    <span class="version">v0.3 TESTE</span>
   </header>
   <section class="objective">
     <b>OFICINA DO BAIRRO</b>
@@ -26,11 +26,30 @@
   <div id="toast" class="toast hidden"></div>
 
   <nav class="camera-controls" aria-label="Câmera">
+    <button id="build-toggle" title="Construir (B)">Construir</button>
     <button data-camera="left" title="Girar para a esquerda">↶</button>
     <button data-camera="right" title="Girar para a direita">↷</button>
     <button data-camera="in" title="Aproximar">＋</button>
     <button data-camera="out" title="Afastar">−</button>
   </nav>
+
+  <aside id="build-panel" class="build-panel hidden" aria-label="Construção da oficina">
+    <div class="build-heading"><b>ORGANIZE SUA OFICINA</b><button id="build-close">Concluir</button></div>
+    <p>Escolha uma peça e toque no chão. Use as setas abaixo para ajustar. O layout salva automaticamente.</p>
+    <div id="build-catalog"></div>
+    <div class="build-position">
+      <button data-build-step="left" aria-label="Posição à esquerda">←</button>
+      <button data-build-step="up" aria-label="Posição ao fundo">↑</button>
+      <button data-build-step="down" aria-label="Posição à frente">↓</button>
+      <button data-build-step="right" aria-label="Posição à direita">→</button>
+      <button id="build-rotate">Girar 90°</button>
+    </div>
+    <p id="build-status" role="status"></p>
+    <button id="build-place" class="build-primary">Colocar peça</button>
+    <h3>Peças instaladas</h3>
+    <div id="build-installed"></div>
+    <p class="build-note">As estações iniciais ficam fixas nesta versão. As novas peças organizam e decoram a oficina. Remover devolve 70% do preço.</p>
+  </aside>
 
   <div class="touch" aria-label="Controles para celular">
     <button data-key="KeyW">▲</button>
@@ -58,6 +77,7 @@
 
   <script src="js/three.min.js"></script>
   <script src="js/game.js"></script>
+  <script src="js/construction.js"></script>
 </body>
 </html>
 
