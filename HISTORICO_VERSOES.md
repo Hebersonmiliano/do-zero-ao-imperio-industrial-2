@@ -1,5 +1,32 @@
 # Histórico de versões
 
+## v0.3 — Construção básica
+
+Data: 27/10/2026
+
+### Adicionado
+
+- Modo Construir por botão ou tecla B, com pausa da produção.
+- Grade com seleção por clique/toque e ajuste por botões.
+- Prévia verde/vermelha, rotação e validação da posição.
+- Catálogo: mesa de apoio, estante auxiliar, divisória, portal aberto, vaso com planta e floreira.
+- Lista de peças com mover gratuitamente e remover com reembolso de 70%.
+- Salvamento automático do layout, compatível com o progresso da v0.2.1.
+- Colisão dos móveis e passagem livre no centro dos portais.
+- Proteção de corredores, acessos das estações e reserva de R$ 20 para matéria-prima.
+
+### Validação
+
+- Testes automatizados do ciclo econômico e das regras de construção.
+- Compra e reposicionamento realizados no navegador.
+- Layout e saldo preservados após recarregar a página.
+
+### Limites desta etapa
+
+- Estações iniciais fixas; móveis novos são auxiliares e decorativos.
+- Ainda sem produção adicional nas novas mesas ou aumento de capacidade nas estantes.
+- Próxima etapa: v0.4, produtos e estoque separados.
+
 ## v0.2.1 — Correção e validação
 
 Data: 27/10/2026
