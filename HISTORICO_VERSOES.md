@@ -1,5 +1,16 @@
 # Histórico de versões
 
+## v0.2.1 — Correção e validação
+
+Data: 27/10/2026
+
+- Three.js incluído no pacote para funcionamento sem internet.
+- Corrigidas direções laterais do personagem em relação à câmera.
+- Abertura do cenário confirmada no navegador.
+- Teste automatizado do ciclo de compra, coleta, produção de cinco caixas, estoque, venda e salvamento.
+- Verificação de colisão e interação pelas laterais dos móveis.
+- Pacote ZIP mantém a pasta js e todos os arquivos necessários.
+
 ## v0.2 — Protótipo jogável do distrito
 
 Data: 27/10/2026
