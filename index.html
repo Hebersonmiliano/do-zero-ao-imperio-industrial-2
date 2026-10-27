@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Do Zero ao Império Industrial 2 · v0.2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game"></div>
+  <div id="labels"></div>
+
+  <header class="hud">
+    <strong id="money">R$ 100,00</strong>
+    <span id="cardboard">Papelão 0</span>
+    <span id="carrying">Mãos livres</span>
+    <span id="stock">Estoque 0</span>
+    <span id="sold">Vendas 0</span>
+    <span class="version">v0.2 TESTE</span>
+  </header>
+  <section class="objective">
+    <b>OFICINA DO BAIRRO</b>
+    <span id="mission">Compre papelão no fornecedor</span>
+  </section>
+  <div id="hint" class="hint hidden"></div>
+  <div id="toast" class="toast hidden"></div>
+
+  <nav class="camera-controls" aria-label="Câmera">
+    <button data-camera="left" title="Girar para a esquerda">↶</button>
+    <button data-camera="right" title="Girar para a direita">↷</button>
+    <button data-camera="in" title="Aproximar">＋</button>
+    <button data-camera="out" title="Afastar">−</button>
+  </nav>
+
+  <div class="touch" aria-label="Controles para celular">
+    <button data-key="KeyW">▲</button>
+    <button data-key="KeyA">◀</button>
+    <button data-key="KeyS">▼</button>
+    <button data-key="KeyD">▶</button>
+    <button data-key="KeyE" class="action">E</button>
+  </div>
+
+  <div id="intro" class="modal">
+    <div class="panel">
+      <p class="eyebrow">NOVO DISTRITO · NOVA HISTÓRIA</p>
+      <h1>Do Zero ao<br><em>Império Industrial 2</em></h1>
+      <p>Você alugou uma pequena oficina no Distrito Aurora. Com R$ 100, uma bancada e uma bicicleta de carga, chegou a hora de conquistar o primeiro cliente.</p>
+      <div class="steps">
+        <span><b>1</b> Compre papelão</span>
+        <span><b>2</b> Monte caixas</span>
+        <span><b>3</b> Guarde no estoque</span>
+        <span><b>4</b> Entregue ao cliente</span>
+      </div>
+      <p class="keys"><kbd>WASD</kbd> mover · <kbd>E</kbd> interagir · botões no canto giram a câmera</p>
+      <button id="start">Abrir a oficina</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
+
