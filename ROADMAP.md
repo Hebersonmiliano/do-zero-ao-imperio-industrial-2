@@ -17,10 +17,12 @@
 
 ## v0.3 — Construção básica
 
-- Grade de construção.
-- Posicionamento e remoção de objetos.
-- Mesa, estoque, portas e paredes.
-- Salvamento do layout.
+- [x] Grade de construção.
+- [x] Posicionamento, rotação, movimentação e remoção de objetos.
+- [x] Mesa auxiliar, estante auxiliar, portal aberto e divisórias.
+- [x] Plantas e floreiras.
+- [x] Salvamento do layout.
+- Estações iniciais continuam fixas; funções produtivas e expansão de estoque serão integradas nas próximas etapas.
 
 ## v0.4 — Produtos e estoque
 
