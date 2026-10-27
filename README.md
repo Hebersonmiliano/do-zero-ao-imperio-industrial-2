@@ -19,7 +19,7 @@ Comece em uma oficina alugada em um bairro industrial vivo. Produza as primeiras
 
 ## Estado atual
 
-**v0.2 — Protótipo jogável do Distrito Aurora.** Abra `index.html` em um navegador moderno.
+**v0.2.1 — Correção e validação.** Extraia o ZIP inteiro e abra `index.html` em Chrome, Edge ou Firefox. A biblioteca 3D está incluída; não é necessária conexão com a internet.
 
 ### Conteúdo jogável atual
 
